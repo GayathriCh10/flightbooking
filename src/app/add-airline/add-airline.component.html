@@ -1,0 +1,19 @@
+<div class="container">
+    <hr>   
+    <h3><div class="center">Add airline details</div></h3>
+  <label >AirlineName</label>   
+  <input [(ngModel)]='add.airlinename'> <br><br>
+  <label >UploadLogo</label>   
+  <input [(ngModel)]='add.uploadlogo'> <br><br>
+  <label >ContactNumber</label>   
+  <input [(ngModel)]='add.contactnumber'> <br><br>
+  <label >ContactAddress</label> 
+  <textarea id="w3review" name="w3review" rows="4" cols="50" >
+   
+    </textarea>
+    <input [(ngModel)]='add.contactaddress'>
+    <button (click)='save()'> Add New Airline</button>
+</div>
+
+    
+
